@@ -11,26 +11,27 @@
 }
 
 .jumbotron {
-  height: 550px;
+  height: 600px;
   background-image:url('https://s3.amazonaws.com/mattelgin/IMG_0435.JPG');
   background-size: cover;
 }
 
-.jumbotron h1 {
+.jumbotron .container {
   position: relative;
-  top:50px;
-  left:50px;
-	color: #fff;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
 	font-size: 48px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight:bold;
+	text-transform: uppercase;
 }
 
 .jumbotron p {
-  position: relative;
-  top: 20px;
-  left:50px;
 	color: #fff;
 	font-size: 24px;
 	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
 }
