@@ -7,18 +7,17 @@
 
 .nav li {
   display: inline;
-  
 }
 
 .jumbotron {
-  height: 600px;
+  height: 700px;
   background-image:url('https://s3.amazonaws.com/mattelgin/IMG_0435.JPG');
   background-size: cover;
 }
 
 .jumbotron .container {
   position: relative;
-  top:100px;
+  top: 150px;
 }
 
 .jumbotron h1 {
