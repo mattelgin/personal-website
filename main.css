@@ -1,5 +1,11 @@
+body {
+  background-image:url('https://s3.amazonaws.com/mattelgin/IMG_0435.JPG');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .nav a {
-  color: black;
+  color: white;
   font-size: 16px;
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
@@ -7,29 +13,29 @@
 
 .nav li {
   display: inline;
+  color: white;
 }
 
 .jumbotron {
-  height: 700px;
-  background-image:url('https://s3.amazonaws.com/mattelgin/IMG_0435.JPG');
-  background-size: cover;
+  height: 400px;
+  opacity: 0.2;
 }
 
 .jumbotron .container {
   position: relative;
-  top: 150px;
+  top: 90px;
 }
 
 .jumbotron h1 {
-  color: #fff;
-	font-size: 48px;
+  color: white;
+  font-size: 48px;
 	font-family: 'Ubuntu', sans-serif;
 	font-weight:bold;
 	text-transform: uppercase;
 }
 
 .jumbotron p {
-	color: #fff;
+	color: white;
 	font-size: 24px;
 	font-family: 'Ubuntu', sans-serif;
 	text-transform: uppercase;
