@@ -4,9 +4,15 @@ body {
   background-repeat: no-repeat;
 }
 
+
+.nav {
+	opacity: 0.4;
+	background-color: black;
+}
+
 .nav a {
   color: white;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Ubuntu', sans-serif;
   text-transform: uppercase;
 }
@@ -14,11 +20,13 @@ body {
 .nav li {
   display: inline;
   color: white;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .jumbotron {
   height: 400px;
-  opacity: 0.2;
+  opacity: 0.0;
 }
 
 .jumbotron .container {
